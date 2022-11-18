@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite" parallel="tests">
+<listeners>
+    <listener class-name="AbstarctComponents.Listeners"/>
+
+</listeners>
+
+    <test verbose="2" preserve-order="true" name="TOS_Web_CHROME">
+
+        <parameter name="user" value="Testuser4200"/>
+        <parameter name="password" value="Testuser$%4200"/>
+        
+        <parameter name="URL" value="https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html"/>
+
+        <parameter name="user_wrong" value="jhfkdjsks"/>
+        <parameter name="password_wrong" value="Tkdsjsk46593$%"/>
+
+        <parameter name="browser" value="chrome"/>
+
+        <parameter name="Instrument" value="AAPL"/>
+        <parameter name="ForexInstrument" value="EUR/USD"/>
+        <parameter name="InstrumentFutures" value="/NQZ26"/>
+
+        <parameter name="BuyPrice" value="130"/>
+        <parameter name="SellPrice" value="150"/>
+
+        <parameter name="positiveQuantity" value="1"/>
+        <parameter name="negativeQuantity" value="-1"/>
+
+
+
+        <classes>
+
+
+            <class name="TestDesignTechniques.TestsDecisionTableLogin"/>
+
+            <!--
+              <class name="TestDesignTechniques.UseCase_LoginToEndToEndOrderIssue"/>
+            <class name="TestDesignTechniques.TestsBoundaryValueQuantityShares"/>
+            <class name="TestDesignTechniques.TestsDecisionTableLogin"/>
+            <class name="TestDesignTechniques.StateTransitionsMainIconsAndSearch"/>
+            <class name="TestDesignTechniques.TestsBoundaryValueQuantityShares"/>
+            -->
+
+        </classes>
+
+    </test>
+
+    <test verbose="2" preserve-order="true" name="TOS_Web_FIREFOX" >
+
+        <parameter name="user" value="Testuser4200"/>
+        <parameter name="password" value="Testuser$%4200"/>
+
+        <parameter name="URL" value="https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html"/>
+
+        <parameter name="user_wrong" value="jhfkdjsks"/>
+        <parameter name="password_wrong" value="Tkdsjsk46593$%"/>
+
+        <parameter name="browser" value="chrome"/>
+
+        <parameter name="Instrument" value="AAPL"/>
+        <parameter name="ForexInstrument" value="EUR/USD"/>
+        <parameter name="InstrumentFutures" value="/NQZ26"/>
+
+        <parameter name="BuyPrice" value="130"/>
+        <parameter name="SellPrice" value="150"/>
+
+        <parameter name="positiveQuantity" value="1"/>
+        <parameter name="negativeQuantity" value="-1"/>
+
+
+        <classes>
+
+            <class name="TestDesignTechniques.TestsDecisionTableLogin"/>
+
+            <!--
+              <class name="TestDesignTechniques.UseCase_LoginToEndToEndOrderIssue"/>
+            <class name="TestDesignTechniques.TestsBoundaryValueQuantityShares"/>
+            <class name="TestDesignTechniques.TestsDecisionTableLogin"/>
+            <class name="TestDesignTechniques.StateTransitionsMainIconsAndSearch"/>
+            <class name="TestDesignTechniques.TestsBoundaryValueQuantityShares"/>
+            -->
+
+        </classes>
+
+    </test>
+
+    <test verbose="2" preserve-order="true" name="TOS_Web_EDGE">
+
+        <parameter name="user" value="Testuser4200"/>
+        <parameter name="password" value="Testuser$%4200"/>
+
+        <parameter name="URL" value="https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html"/>
+
+        <parameter name="user_wrong" value="jhfkdjsks"/>
+        <parameter name="password_wrong" value="Tkdsjsk46593$%"/>
+
+        <parameter name="browser" value="chrome"/>
+
+        <parameter name="Instrument" value="AAPL"/>
+        <parameter name="ForexInstrument" value="EUR/USD"/>
+        <parameter name="InstrumentFutures" value="/NQZ26"/>
+
+        <parameter name="BuyPrice" value="130"/>
+        <parameter name="SellPrice" value="150"/>
+
+        <parameter name="positiveQuantity" value="1"/>
+        <parameter name="negativeQuantity" value="-1"/>
+
+        <classes>
+
+            <class name="TestDesignTechniques.TestsDecisionTableLogin"/>
+
+            <!--
+              <class name="TestDesignTechniques.UseCase_LoginToEndToEndOrderIssue"/>
+            <class name="TestDesignTechniques.TestsBoundaryValueQuantityShares"/>
+            <class name="TestDesignTechniques.TestsDecisionTableLogin"/>
+            <class name="TestDesignTechniques.StateTransitionsMainIconsAndSearch"/>
+            <class name="TestDesignTechniques.TestsBoundaryValueQuantityShares"/>
+            -->
+
+        </classes>
+
+    </test>
+
+ </suite>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite" parallel="tests">
+<listeners>
+    <listener class-name="AbstarctComponents.Listeners"/>
+
+</listeners>
+    <test verbose="2" preserve-order="true" name="TOS_Web_CHROME">
+
+
+        <parameter name="URL" value="https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html"/>
+        <parameter name="user" value="Testuser4200"/>
+        <parameter name="password" value="Testuser$%4200"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="Instrument" value="AAPL"/>
+        <parameter name="BuyPrice" value="130"/>
+        <parameter name="SellPrice" value="150"/>
+
+
+        <classes>
+
+
+
+            <class name="TOSWebTests.SellOrderCreation"/>
+
+
+
+            <!--
+
+            <class name="TOSWebTests.Login"/>
+            <class name="TOSWebTests.BuyOrderCreation"/>
+            <class name="TOSWebTests.SellOrderCreation"/>
+            <class name="TOSWebTests.OrderHistory"/>
+            <class name="TOSWebTests.BUYOrderCancellation"/>
+            <class name="TOSWebTests.SELLOrderCancellation"/>
+
+
+            -->
+
+
+
+        </classes>
+
+    </test>
+
+    <test verbose="2" preserve-order="true" name="TOS_Web_FIREFOX" >
+
+        <parameter name="URL" value="https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html"/>
+        <parameter name="user" value="Testuser4200"/>
+        <parameter name="password" value="Testuser$%4200"/>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="Instrument" value="AAPL"/>
+        <parameter name="BuyPrice" value="130"/>
+        <parameter name="SellPrice" value="150"/>
+
+        <classes>
+
+
+            <class name="TOSWebTests.SellOrderCreation"/>
+
+
+            <!--
+
+        <class name="TOSWebTests.Login"/>
+            <class name="TOSWebTests.BuyOrderCreation"/>
+            <class name="TOSWebTests.SellOrderCreation"/>
+            <class name="TOSWebTests.OrderHistory"/>
+            <class name="TOSWebTests.BUYOrderCancellation"/>
+            <class name="TOSWebTests.SELLOrderCancellation"/>
+
+
+         -->
+
+
+
+
+        </classes>
+
+    </test>
+
+    <test verbose="2" preserve-order="true" name="TOS_Web_EDGE">
+
+        <parameter name="URL" value="https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html"/>
+        <parameter name="user" value="Testuser4200"/>
+        <parameter name="password" value="Testuser$%4200"/>
+        <parameter name="browser" value="edge"/>
+        <parameter name="Instrument" value="AAPL"/>
+        <parameter name="BuyPrice" value="130"/>
+        <parameter name="SellPrice" value="150"/>
+
+        <classes>
+
+
+            <class name="TOSWebTests.SellOrderCreation"/>
+
+            <!--
+
+          <class name="TOSWebTests.Login"/>
+            <class name="TOSWebTests.BuyOrderCreation"/>
+            <class name="TOSWebTests.SellOrderCreation"/>
+            <class name="TOSWebTests.OrderHistory"/>
+            <class name="TOSWebTests.BUYOrderCancellation"/>
+            <class name="TOSWebTests.SELLOrderCancellation"/>
+
+
+      -->
+
+        </classes>
+
+    </test>
+
+ </suite>
