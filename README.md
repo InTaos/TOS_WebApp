@@ -19,8 +19,7 @@ All test are executed in context of **cross-browser parallel** execution.
 
 All of the parametrization and orchestration of tests and browsers is done in **testng.xml** file.
 
-The project is suitable with **Jenkins** integration and parametrization.
-
+**The project is suitable with **Jenkins** integration and parametrization.**
 In according to run all test suits simultaneously you need: 
 1. To install the mentioned browsers: **Chrome, Firefox, Edge**
 2. You need to have three different registrations for accounts at https://papermoney.thinkorswim.com/platform/index.html#!/pmregister
