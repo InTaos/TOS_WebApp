@@ -24,4 +24,5 @@ All of the parametrization and orchestration of tests and browsers is done in **
 In according to run all test suits simultaneously you need: 
 1. To install the mentioned browsers: **Chrome, Firefox, Edge**
 2. You need to have three different registrations for accounts at https://papermoney.thinkorswim.com/platform/index.html#!/pmregister
+3. You need to replace your credentions in **tesng.xml file for "user" and "password".**
 
