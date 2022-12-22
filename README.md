@@ -12,3 +12,11 @@ Automation testing framewok for "Thinkorswim" Web application. Tech: JAVA, TESTN
 5. BUY & SELL orders cancelation tests.
 
 **Testing techniques:** Boundary Value Analysis, Decision Table Testing, End to end tests, Pairwise Testing
+
+All test are executed in context of **cross-browser parallel** execution.
+
+**Browsers:** Chrome, Firefox, Edge
+
+All of the parametrization and orchestration of tests and browsers is done in **testng.xml** file.
+
+The project is suitable with **Jenkins** integration and parametrization.
